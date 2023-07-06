@@ -6,18 +6,3 @@ body{
     font-size: 14px;
     line-height: 24px;
 }
-
-.outerShell{
-    max-width: 1400px;
-    max-height: 1280px;
-    background-color: rgb(220, 78, 78);
-    margin: auto;
-    display: flex;
-}
-
-.innerShell{
-    background-color: rgb(76, 76, 230);
-    margin: 40px 40px;
-    display: flex;
-    flex-direction: column;
-}
