@@ -5,20 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my CV page</title>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="normalize.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 
 <body>
     <div class="wrapper">
 
+        <aside class="sideBar">
+            <img class="person" src="/img/me.jpg" alt="person">
+
+            <div class="contacts">
+                <h3 class="contactsHeader sideBarTitle">Contacts</h3>
+                <p class="contactsItem">
+                    <span class="linkPhone">C:</span>
+                    <a href="tel:+380978665236" class="contactsPhone">+38 097 866 52 36</a></p>
+                <p class="contactsItemMail">
+                    <span class="linkMail">E:</span>
+                    <a href="mailto:dpanekin@gmail.com" class="contactsEmail">dpanekin@gmail.com</a></p>    
+            </div>
+
+            <div class="techSkills">
+                <h3 class="techSkillsHeader sideBarTitle">Tech Skills</h3>
+                <ul class="skillsList">
+                    <li class="skillsListItem"><span class="skillListText">HTML5</span></li>
+                    <li class="skillsListItem"><span class="skillListText">CSS3</span></li>
+                    <li class="skillsListItem"><span class="skillListText">GIT</span></li>
+                    <li class="skillsListItem"><span class="skillListText">WebPack</span></li>
+                    <li class="skillsListItem"><span class="skillListText">JavaScript</span></li>
+                    <li class="skillsListItem"><span class="skillListText">React.js</span></li>
+                    <li class="skillsListItem"><span class="skillListText">Node.js</span></li>
+                </ul>
+            </div>
+
+            <div class="softSkills ">
+                <h3 class="techSkillsHeader sideBarTitle">Soft Skills</h3>
+                <ul class="skillsList">
+                    <li class="skillsListItem"><span class="skillListText">Scrum</span></li>
+                    <li class="skillsListItem"><span class="skillListText">Agile</span></li>
+                    <li class="skillsListItem"><span class="skillListText">GTD</span></li>
+                    <li class="skillsListItem"><span class="skillListText">Teamwork</span></li>
+                </ul>
+            </div>
+
+        </aside>
+
         <div class="mainContent">
 
             <div class="aboutMe">
-                <h2>Front-End Developer</h2>
-                <h1>Dmytro Paniekin</h1>
-                <p>
+                <h2 class="myProfession">Front-End Developer</h2>
+                <h1 class="nameSurname">Dmytro Paniekin</h1>
+                <p class="aboutDescription">
                     I am a technical engineer with diverse experience in communications. I am
                     engaged in support of clients and network equipment of ISP. My current
                     efforts are focused on frontend development. Experienced with Javacsript,
@@ -30,8 +70,8 @@
             </div>
 
             <div class="myProjects">
-                <h3>Projects</h3>
-                <ol>
+                <h3 class="myProjectsHeader">Projects</h3>
+                <ol class="projectsList">
                     <li>
                         <a href="https://hellen.p.goit.global/"></a>
                         https://hellen.p.goit.global/............................[HTML5, CSS3 ]
@@ -51,7 +91,7 @@
                 <h3>Work Experience</h3>
 
                 <div class="company1">
-                    <h4>Front-End Developer Freelance</h4>
+                    <h4 class="companyOneHeader">Front-End Developer Freelance</h4>
                     <p>September 2019 - up to now | Country</p>
                     <ul>
                         <li>
@@ -95,40 +135,9 @@
 
         </div>
 
-        <aside class="sideBar">
-            <img src="/img/person.svg" alt="person" width="300px">
 
-            <div class="contacts">
-                <h3>Contacts</h3>
-                <p><a href="tel:+380978665236"></a>C: +38 097 866 52 36</p>
-                <p><a href="mailto:dpanekin@gmail.com"></a>E: dpanekin@gmail.com</p>
-            </div>
-
-            <div class="techSkills">
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
-                </ul>
-            </div>
-
-            <div class="softSkills">
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>GTD</li>
-                    <li>Teamwork</li>
-                </ul>
-            </div>
-
-        </aside>
 
     </div>
 </body>
+
 </html>
