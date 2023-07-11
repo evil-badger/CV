@@ -1,26 +1,61 @@
 body {
     background-color: #E5E5E5;
     color: #000;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     padding: 40px;
 }
 
-.aboutDescription {
-    margin: 24px 0 0 0;
-    max-width: 525px;
-    text-align: justify;
+.wrapper {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 1200px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.aboutMe {
-    margin: 104px 0 0 92px;
+.sideBar {
+    background-color: #E0EBFE;
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.person {
+    margin-top: 40px;
+    max-width: 370px;
+}
+
+.contacts {
+    margin: 48px 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.contactsHeader {
+    margin: 0;
+}
+
+.sideBarTitle {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
 }
 
 .contactsItem {
     margin: 8px 0 0 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-.contactsItemMail {
-    margin: 0px 0 0 0;
+.linkPhone {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 8px 0 0;
 }
 
 .contactsPhone {
@@ -32,33 +67,8 @@ body {
     text-decoration: none;
 }
 
-.contactsEmail {
-    color: #2979FF;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-}
-
-.contactsHeader {
-    margin: 0;
-}
-
-.companyOneHeader {
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    margin-top: 20px;
-}
-
-.contacts {
-    margin: 48px 0 0 40px;
-}
-
-.education {
-    margin: 44px 0 0 88px;
-    padding-bottom: 108px;
+.contactsItemMail {
+    margin: 0px 0 0 0;
 }
 
 .linkMail {
@@ -69,67 +79,23 @@ body {
     margin: 0 8px 0 0;
 }
 
-.linkPhone {
+.contactsEmail {
+    color: #2979FF;
     font-size: 14px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 24px;
-    margin: 0 8px 0 0;
 }
 
-.mainContent {
-    background: #FFF;
-    display: flex;
-    flex-direction: column;
+.techSkills {
+    margin: 48px 0 0 40px;
 }
 
-.myProfession {
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 17px;
-}
-
-.myProjectsHeader {
+.techSkillsHeader {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: 27px;
-}
-
-.myProjects {
-    display: flex;
-    flex-direction: column;
-    margin: 16px 0 0 92px;
-}
-
-.nameSurname {
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 55px;
-    margin: 18px 0 0 0;
-}
-
-.person {
-    margin-top: 40px;
-    max-width: 370px;
-}
-
-.projectsList {
-    margin: 10px 0 0 0;
-    padding-left: 15px;
-}
-
-.sideBar {
-    background-color: #E0EBFE;
-    display: flex;
-    flex-direction: column;
-    width: 370px;
-}
-
-.softSkills {
-    margin: 44px 0 0px 40px;
 }
 
 .skillsList {
@@ -155,33 +121,193 @@ body {
     margin-left: 4px;
 }
 
-.sideBarTitle {
+.softSkills {
+    margin: 44px 0 0px 40px;
+}
+
+.aboutDescription {
+    margin: 18px 0 0 0;
+    max-width: 525px;
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.aboutMe {
+    margin: 104px 0 0 88px;
+}
+
+.mainContent {
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.myProfession {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.myProjectsHeader {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: 27px;
 }
 
-.techSkills {
-    margin: 48px 0 0 40px;
+.projectLink {
+    margin-left: 12px;
+    color: #005FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
 }
 
-.techSkillsHeader {
+.projectStack {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.projectItem::marker {
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.myProjects {
+    display: flex;
+    flex-direction: column;
+    margin: 65px 0 0 88px;
+}
+
+.WorkExperienceHeader {
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: 27px;
+}
+
+.nameSurname {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    margin: 18px 0 0 0;
+}
+
+.projectsList {
+    margin: 8px 0 0 0px;
+    padding-left: 15px;
 }
 
 .workExperience {
-    margin: 52px 0 0 88px;
+    margin: 51px 0 0 88px;
 }
 
-.wrapper {
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    max-width: 1200px;
+.companyOneHeader {
+    margin: 13px 0 0 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
 }
 
+.company2 {
+    margin: 18px 0 0 0;
+}
+
+.company3 {
+    margin: 18px 0 0 0;
+}
+
+.companyHeader {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 13px;
+}
+
+.fontBlue {
+    color: #6D9BF5;
+}
+
+.dates {
+    margin: 10px 0 0 0;
+    color: #A8A8A8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.slash {
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.workList {
+    max-width: 509px;
+    margin: 8px 0 0 16px;
+    padding: 0;
+}
+
+.workOperations {
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.education {
+    margin: 69px 0 0 88px;
+    padding-bottom: 108px;
+}
+
+.educationHeader {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.university {
+    color: #6D9BF5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 14px 0 0 0px;
+}
+
+.educationDirection {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    margin: 10px 0 0 0;
+}
+
+.datesEducation {
+    margin: 12px 0 0 0;
+    color: #A8A8A8;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+}

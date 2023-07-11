@@ -8,24 +8,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 <body>
     <div class="wrapper">
-
         <aside class="sideBar">
-            <img class="person" src="/img/me.jpg" alt="person">
+            <img class="person" src="./img/me.jpg" alt="person">
 
             <div class="contacts">
                 <h3 class="contactsHeader sideBarTitle">Contacts</h3>
                 <p class="contactsItem">
-                    <span class="linkPhone">C:</span>
-                    <a href="tel:+380978665236" class="contactsPhone">+38 097 866 52 36</a></p>
-                <p class="contactsItemMail">
-                    <span class="linkMail">E:</span>
-                    <a href="mailto:dpanekin@gmail.com" class="contactsEmail">dpanekin@gmail.com</a></p>    
+                    <span class="linkPhone">Phone:</span>
+                    <a href="tel:+380978665236" class="contactsEmail">+38 097 866 52 36</a>
+                </p>
+                <p class="contactsItem">
+                    <span class="linkPhone">Telegram:</span>
+                    <a href="https://t.me/Evierray" class="contactsEmail">t.me/Evierray</a>
+                </p>
+                <p class="contactsItem">
+                    <span class="linkMail">GitHub:</span>
+                    <a href="https://github.com/evil-badger" class="contactsEmail">github.com/evil-badger</a>
+                </p>
+                <p class="contactsItem">
+                    <span class="linkMail">Email:</span>
+                    <a href="mailto:dpanekin@gmail.com" class="contactsEmail">dpanekin@gmail.com</a>
+                </p>
             </div>
 
             <div class="techSkills">
@@ -72,71 +81,70 @@
             <div class="myProjects">
                 <h3 class="myProjectsHeader">Projects</h3>
                 <ol class="projectsList">
-                    <li>
-                        <a href="https://hellen.p.goit.global/"></a>
-                        https://hellen.p.goit.global/............................[HTML5, CSS3 ]
+                    <li class="projectItem">
+                        <a class="projectLink" href="">In progress</a>
+                        <span class="projectStack">........................................................[ HTML5, CSS3]                            
+                        </span>
                     </li>
-                    <li>
-                        <a href="https://cryptohub.p.goit.global/"></a>
-                        https://cryptohub.p.goit.global/..................[JavaScript ]
+                    <li class="projectItem">
+                        <a class="projectLink"
+                            href="">In progress</a>
+                        <span class="projectStack">........................................................[ JavaScript ]</span>
+
                     </li>
-                    <li>
-                        <a href="https://kidslike.p.goit.global/"></a>
-                        https://kidslike.p.goit.global/.........................[React.js, Node.js ]
+                    <li class="projectItem">
+                        <a class="projectLink"
+                            href="">In progress</a>
+                        <span class="projectStack">........................................................[ React.js,
+                            Node.js ]</span>
+
                     </li>
                 </ol>
             </div>
 
             <div class="workExperience">
-                <h3>Work Experience</h3>
-
-                <div class="company1">
-                    <h4 class="companyOneHeader">Front-End Developer Freelance</h4>
-                    <p>September 2019 - up to now | Country</p>
-                    <ul>
-                        <li>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
-                        </li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Risus commodo viverra maecenas.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
-                    </ul>
-                </div>
+                <h3 class="WorkExperienceHeader">Work Experience</h3>
 
                 <div class="company2">
-                    <h4>ICN internet provider</h4>
-                    <p>May 2015 - now | Odessa</p>
-                    <ul>
-                        <li>L2 network operations</li>
-                        <li>Asseble and repair teams coordination</li>
-                        <li>Users side troubleshooting</li>
+                    <h4 class="companyHeader">Technial support engineer <span class="fontBlue">ICN internet
+                            provider</span></h4>
+                    <p class="dates">May 2015 - up to now&nbsp;&nbsp;&nbsp;<span
+                            class="slash">|</span>&nbsp;&nbsp;&nbsp;Odessa</p>
+                    <ul class="workList">
+                        <li class="workOperations">L2 network operations</li>
+                        <li class="workOperations">Asseble and repair teams coordination</li>
+                        <li class="workOperations">Users side troubleshooting</li>
                     </ul>
                 </div>
 
                 <div class="company3">
-                    <h4>Odessa biologic research center</h4>
-                    <p>September 2014 - May 2015 | Odessa</p>
-                    <ul>
-                        <li>PC hardware troubleshooting</li>
-                        <li>Cable system Management</li>
-                        <li>Local network support</li>
+                    <h4 class="companyHeader">IT technicist 
+                        <span class="fontBlue">Odessa biologic research center</span>
+                    </h4>
+                    <p class="dates">September 2014 - May 2015&nbsp;&nbsp;&nbsp;
+                        <span class="slash">|</span>
+                        &nbsp;&nbsp;&nbsp;Odessa
+                    </p>
+                    <ul class="workList">
+                        <li class="workOperations">PC hardware troubleshooting</li>
+                        <li class="workOperations">Cable system Management</li>
+                        <li class="workOperations">Local network support</li>
                     </ul>
                 </div>
 
             </div>
 
             <div class="education">
-                <h2>Education</h2>
-                <h3>Popov A.S. National University of Telecommunications</h3>
-                <h4>Informational Networks</h4>
-                <p>September 2011 - June 2014 | Odessa</p>
+                <h2 class="educationHeader">Education</h2>
+                <h3 class="university">Popov A.S. National University of Telecommunications</h3>
+                <h4 class="educationDirection">Informational Networks</h4>
+                <p class="datesEducation">September 2011 - June 2014&nbsp;&nbsp;&nbsp;
+                    <span class="slash">|</span>
+                    &nbsp;&nbsp;Odessa
+                </p>
             </div>
-
         </div>
-
-
-
+        
     </div>
 </body>
 
