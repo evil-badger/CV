@@ -1,1 +1,1 @@
-# CV web version, no figma source
+# CV web version
